@@ -4,7 +4,7 @@ services:
     restart: always
 
   pyapp:
-    image: pyapp:latest
+    image: ghcr.io/isaia91/weather-pyapp:latest 
     build: .
     depends_on:
       - redis
